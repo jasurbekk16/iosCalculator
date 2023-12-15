@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./style.css">
+   
+  <meta charset="UTF-8">
+  <title>Iphone calculator</title>
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" id="result" readonly>
+    <br>
+    <div class="qator1">
+      <button onclick="clearResult()" class="gray">AC</button>
+      <button onclick="performOperation('/')" class="yellow">/</button>  
+    </div>
+    <div class="qator2">
+    <button onclick="appendNumber(7)" class="black">7</button>
+    <button onclick="appendNumber(8)" class="black">8</button>
+    <button onclick="appendNumber(9)" class="black">9</button>
+    <button onclick="performOperation('*')" class="yellow">X</button>
+
+    </div>
+    <div class="qator3">
+    <button onclick="appendNumber(4)" class="black">4</button>
+    <button onclick="appendNumber(5)" class="black">5</button>
+    <button onclick="appendNumber(6)" class="black">6</button>
+    <button onclick="performOperation('-')" class="yellow">-</button>
+
+    </div>
+    <div class="qator4">
+<button onclick="appendNumber(1)" class="black">1</button>
+    <button onclick="appendNumber(2)" class="black">2</button>
+    <button onclick="appendNumber(3)" class="black">3</button>
+    <button onclick="performOperation('+')" class="yellow">+</button>
+
+    </div>
+    <div class="qator5">
+<button onclick="appendNumber(0)" class="zero">0</button>
+<button onclick="deleteNumber()" class="gray">DEL</button>
+<button onclick="calculateResult()" class="yellow">=</button>
+    </div>
+    
+    <br>
+    
+    
+
+    
+    <br>
+    
+    
+    
+    
+    <br>
+    
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
